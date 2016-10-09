@@ -1,0 +1,53 @@
+body{font-family:Kaiti;background-color:#DFFFDF;}
+.right{float:left;width:20%;height:300px;border:1px solid #000;padding:2% 0 0 2%;margin-left:2%;
+	border-radius:5px;border:1px solid #ADADAD;}
+.main{margin-left:25%;width:60%;height:600px;border:1px solid #ADADAD;border-radius:5px;overflow-y:scroll;}
+.left_time{float:right;width:120px;height:80px;border:1px solid #ADADAD;padding-top:1%;
+	margin-right:5%;border-radius:5px;}
+.left_title{font-family:Kaiti;font-size:18px;margin-left:10%;margin-top:5px;font-weight:bold;}
+.timer{font-family:SimHei;color:red;margin-left:5%;margin-top:2%;font-size:20px;}
+.foot{margin-top:1%;margin-left:50%;}
+	.foot input{border-radius:5px;width:70px;height:30px;background:#0080FF;color:#fff;cursor:pointer;}
+.full_score{margin-left:5%;margin-top:3%;float:left;}
+.title{margin-top:2%;font-weight:bold;text-align:center;font-size:25px;}
+.type{margin-left:10%;margin-top:3%;float:left;}
+.content{margin-left:5%;margin-right:5%;height:auto;margin-top:8%;}
+.question-title span:not(:last-child){font-weight:bold;}
+.subject-tarea{margin-left:3%;overflow-y:scroll;resize:none;width:80%;}
+.ans-bmg{
+	width:20px;
+	height:20px;
+	background-image:url(../img/gray.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	float:right; 
+
+	margin-bottom:5px;
+}
+.ans-bmg-after{
+	width:20px;
+	height:20px;
+	background-image:url(../img/green.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	float:right;
+
+	margin-bottom:5px;
+}
+	
+.sub_no{
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.gap{
+	float:right;
+	width:20px;
+	height:5px;
+}
+.type-no:not(:first-child){
+	width:20px;
+	height:35px;
+	padding-bottom:20px;
+	text-align:center;
+}

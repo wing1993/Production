@@ -1,0 +1,118 @@
+.detail{
+	margin-top:1%;
+	padding-top:1%;
+	width:100%;
+	height:80%;
+	display:none;
+}
+.tblist1 select{
+	border-radius:5px;
+	width:110px;
+}
+.tblist2{
+	border-collapse:collapse;
+	width:100%;
+	margin-top:1%;
+	text-align:center;
+}
+	.tblist2 td{
+		border:1px solid #d0d0d0;
+		height:30px;
+	}
+.tblist2 thead{
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#fcfcfc), to(#f0f0f0));
+}
+
+.valid{
+	height:20px;
+	outline:none;
+	font:20px;
+	color:#fff;
+	border-radius:2px;
+	background-color:#1188ff;
+	border:none;
+	cursor:pointer;
+}
+.invalid{
+	height:20px;
+	outline:none;
+	font:20px;
+	border-radius:2px;
+	border:none;
+}	
+.hide{
+	width:70px;
+	border:none;
+	text-align:center;
+}
+.hide-select{
+	 -moz-appearance: none;
+    -webkit-appearance:none;
+    appearance:none; 
+    border:none;
+}
+.hide-text{
+	width:50px !important;
+	border:none !important;
+	text-align:center;
+	background:#fff;
+}
+
+.paging{
+	text-align:center;
+}
+	.paging button{
+		border:1px solid #d0d0d0;
+		height:30px;
+		width:55px;
+		background:#fff;
+		font-family:Kaiti;
+		cursor:pointer;
+		border-radius:5px;
+		outline:none;
+	}
+	.paging button:hover{
+		color:#fff;
+		background:#0072e3;
+	}
+	#page_no_stu button,#page_no_tea button{
+
+		width:30px !important;
+		height:30px !important;
+		border:1px solid #d0d0d0;
+		text-decoration:none;
+		cursor:pointer;
+	}
+		
+.insertInfo{
+	margin-left:10%;
+	width:80%;
+}
+	.insertInfo td{height:30px;}
+	.insertInfo tr td:first-child{width:9%;}
+	.insertInfo select{width:115px;border-radius:5px;}
+	.insertInfo span{color:red;}
+.insert_btn{
+	margin-left:15%;
+	margin-top:2%;
+}
+.import{
+	margin-left:10%;
+	margin-top:3%;
+}
+	.import input[type=file]{border:1px solid #919191;width:20%;border-radius:5px;}
+	
+.add-teacher{
+	padding:1%;color:#0080c0;
+}
+	.add-teacher span{
+		cursor:pointer;
+	}
+
+.popover-teacher table{
+	width:40% !important;
+	margin-left:25%;
+}
+	.popover-teacher table td{height:30px;}
+	.popover-teacher table tr td:first-child{width:35%;}
+	.popover-teacher input[type=text],.popover-teacher select{width:100%;}

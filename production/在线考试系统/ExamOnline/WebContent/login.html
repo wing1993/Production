@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>在线考试系统用户登陆</title>
+	<link rel="stylesheet" type="text/css" href="./css/login_style.css">
+	<script type="text/javascript">
+	window.onload=main;
+	function main(){
+		document.getElementById("changesrc").onclick=change;
+	}
+		function change(){
+			document.getElementById("checkcode").src="verifyImg";
+		}
+	function check(){
+		if(document.form1.username.value=="")
+			alert("请输入姓名");
+		else if(document.form1.userpasswd.value=="")
+			alert("请输入密码");
+		/* else if(document.form1.check_core.value=="")
+			alert("请输入验证码"); */
+		else{
+			document.form1.submit();
+		}
+			
+	}	
+	</script>
+</head>
+<body>
+	<div id="head">在线考试系统</div>
+	<div id="main">
+		<form method="post" name="form1" action="LoginServlet">
+			<table>
+				<tr>
+					<td>用户名：</td>
+					<td><input type="text" name="username"></td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+					<td><input type="password" name="userpassword"></td>
+				</tr>
+				<tr>
+					<td>角色：</td>
+					<td>
+						<select name="role">
+							<option selected>考生</option>
+							<option>题库管理员</option>
+							<option>监考员</option>
+							<option>管理员</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>验证码：</td>
+					<td><input type="text" name="check_core"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><img src="verifyImg" id="checkcode">&nbsp;<a href="#" id="changesrc" style="font-size:13px;">看不清，换一张</a></td>
+					
+				</tr>
+			</table>
+						
+			<input type="submit" value="提交"  class="bottom" onclick="check()">
+			<input type="reset" value="重置" class="bottom">
+		</form>
+	</div>
+</body>
+</html>

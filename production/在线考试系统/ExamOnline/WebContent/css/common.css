@@ -1,0 +1,140 @@
+body{
+	font-family:Kaiti;
+	font-color:#000;
+}
+input[type=text]{
+	border-radius:5px;
+	width:110px;
+	outline:none;
+	border:1px solid #adadad;
+
+}
+input[type=button],[type=reset]{
+	border-radius:5px;
+	color:#fff;
+	background:#1188ff;
+	outline:none;
+	width:50px;
+	height:30px;
+	border:none;
+	cursor:pointer;
+}
+.main{
+	margin-left:12%;
+	margin-right:12%;
+	height:500px;
+}
+.main div{
+	border-radius:5px;
+}
+.head{
+	width:100%;
+	height:150px;
+	background-image:url(../img/BMG2.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+.title{
+	font-size:60px;
+	font-style:italic;
+	padding-left:20%;
+	padding-top:2%;
+}
+.welInfo{
+
+	width:100%;
+	height:25px;
+	margin-top:3.7%;  
+	margin-bottom:0;
+	background-color:#D2E9FF;
+	opacity:0.7;
+
+}
+	.welInfo .wel{
+		float:left;
+		padding-top:2px;
+		
+	}
+	.wel:first-child{
+		padding-left:1%;
+	}
+	#date{
+		margin-left:5%;
+	}
+.logout{
+	float:right;
+	margin-right:2%;
+	font-style:italic;
+}
+	.logout:hover{
+		color:red;
+	}
+.nav_left{
+	width:15%;
+	height:74%;
+	position:fixed;
+	background-image:url(../img/BMG2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover; 
+	margin-top:1%;
+	float:left;
+}
+.right{
+	position:fixed;
+	margin-left:16%;
+	
+	width:55%;
+	margin-top:1%;
+	padding-left:2%;
+	padding-right:2%;
+	height:74%;
+	border:1px solid #66B3FF;
+	float:right;
+	
+}
+
+.location{
+	width:100%;
+	height:5%;
+	margin-top:1%;
+	border-bottom:2px solid #D0D0D0;
+}
+.detail{
+	margin-top:1%;
+	padding-top:1%;
+	width:100%;
+	height:90%;
+	 display:none;  
+}
+	.sub_location{
+		float:left;font-weight:bold;
+	}
+.list_title{
+	background-color:#D2E9FF;
+
+	padding-bottom:5%;
+	padding-top:5%;
+	padding-left:5%;
+	height:5%;
+	border:1px dotted #000;
+	cursor:pointer;
+}
+.show{
+	float:right;
+	color:#004B97;
+	margin-right:5%;
+	font-size:20px;
+}
+.content{
+	margin-top:0;
+	display:none;
+	font-weight:bold;
+}
+	.content ul{
+		list-style:none;
+	}
+		.content ul li:hover{cursor:pointer;text-decoration:underline;}
+.tip{
+	color:red;
+}

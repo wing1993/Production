@@ -1,0 +1,38 @@
+.online_count{
+	margin-bottom:2%;
+}
+.online_tb{
+	text-align:center;
+	margin-top:2%;
+	width:90%;
+	border-collapse:collapse;
+}
+	.online_tb thead{background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#fcfcfc), to(#f0f0f0));}
+	.online_tb td{
+		border:1px solid #d0d0d0;
+		height:30px;
+	}
+	
+input[type=button]{
+	height:26px !important;
+	width:70px !important;
+}
+.paging{
+	width:100%;
+	text-align:center;
+	margin-top:2%;
+}
+	.paging button{
+		border:1px solid #d0d0d0;
+		height:30px;
+		width:55px;
+		background:#fff;
+		font-family:Kaiti;
+		cursor:pointer;
+		border-radius:5px;
+		outline:none;
+	}
+	.paging button:hover{
+		color:#fff;
+		background:#0072e3;
+	}
